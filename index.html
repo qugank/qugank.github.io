@@ -1,66 +1,176 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>YonggangQi's homepage</title>
-<link href="/css/main.css" rel="stylesheet" type="text/css">
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<body>
-<div id="main">
-  <header id="name">
-    <h1>Yonggang Qi</h1>
-  </header>
-  <div id="ps">
-  <img src="me.jpg" width="256" height="192"  alt=""/>
+    <title>Yonggang Qi's homepage</title>
 
-<aside id="news"><h2>News</h2>
-<p><strong>[May.2016]</strong> One paper goes to ICIP2016.</p>
-<p><strong>[May.2016]</strong> One paper goes to SPLINE2016.</p>
-<p><strong>[Mar.2015]</strong> One paper to appear in Neurocomputing.</p>
-<p><strong>[Mar.2015]</strong> One paper accepted by <strong>CVPR 2015</strong>!</p>
-</aside>
-    
-    <article id="continfo">
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="homepage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="#about">About</a></li>
+            <li><a href="#pub">Publications</a></li>
+            <li><a href="#pub">News</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div id="about" class="container">
+        <h1>Dr. Yonggang Qi</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="me.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+          
+        <div class="col-xs-3">
+          <h4>Lecturer</h4>
+          <h4>(Assistant Professor)</h4>
+          <address>
+            Beijing University of Posts and Telecommunications, Beijing, China<br>
+            
+          </address>
+          <address>
+            <strong>Email</strong><br>
+            <p>qiyg at bupt dot edu dot com</p>
+          </address>
+        </div>
+
+        <div class="col-xs-6">
+          <p>I&rsquo;m currently a Leturer at Beijing University of Posts and Telecommunications (<strong>BUPT</strong>). I recieved Ph.D degree in the group of PRIS at BUPT in 2015. I was a member of <a href="http://sketchx.eecs.qmul.ac.uk/">SketchX lab</a> at Queen Mary University of London. Supported by Aalborg University, I was visiting Aalborg  University as a guest PhD student in 2013. </p>
+          <p>My research interests  include object recognition, contour grouping, image processing, computer vision  and machine learning.</p>
+        </div>
+      </div>
+
+      <div id="pub" class="container">
+        <h2>Publications</h2>
+      </div>
       
-        Center of Network Monitoring and Analysis<br>
-        Beijing University of Posts and Telecommunications (BUPT)<br>
-        
-        <p>E-mail:  <a href="mailto:qiyg@bupt.edu.cn">qiyg at bupt dot edu dot com</a></p>
-    </article>
+      <div class="row">
+        <div class="col-xs-8">
+          <h3><strong>2016</strong></h3>
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/icip16.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Yi-Zhe Song, Honggang Zhang and Jun Liu. <a href="">&quot;Sketch-based Image Retrieval via Siamese Convolutional Neural Network&quot;</a>. In International Conference on  Image Processing (ICIP), 2016.
+            </div>
+          </div>
 
-    <article id="education">
-    <p><strong>About me</strong><br>
-      <p>I&rsquo;m Yonggang Qi, currently a Leturer at Beijing University of Posts and Telecommunications. 
-      I recieved Ph.D degree in signal processing from Beijing University of Posts and Telecommunications in 2015.
-      My research interests  include object recognition, contour grouping, image processing, computer vision  and machine learning. 
-      Supported by Aalborg University, I was visiting Aalborg  University as a guest PhD student in 2013. </p>
-    </article>
-    
-    
-    <article id="pub">
-      <p><strong>Publications</strong><br></p>
+          <h3><strong>2015</strong></h3>
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/cvpr15.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Yi-Zhe Song, Tao Xiang, Honggang Zhang, Timothy Hospedales, Yi Li and Jun Guo. <a href="http://www.eecs.qmul.ac.uk/~tmh/papers/qi2015grouping.pdf">&quot;Making Better Use of Edges via Perceptual Grouping&quot;</a>.IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2015.
+            </div>
+          </div>
 
-      <li>
-        <strong>Yonggang Qi</strong>, Yi-Zhe Song, Tao Xiang, Honggang Zhang, Timothy Hospedales, Yi Li, Jun Guo. &quot;Making Better Use of Edges via Perceptual Grouping&quot;.IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2015.
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/neuro15.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Jun Guo, Yi-Zhe Song, Tao Xiang, Honggang Zhang and Zheng-Hua Tan. <a href="">&quot;Im2Sketch: Sketch generation by unconflicted perceptual grouping&quot;</a>. <strong>Neurocomputing</strong>
+            </div>
+          </div>
 
-        <p><li><strong>Yonggang Qi</strong>, Jun Guo, Yi-Zhe Song, Tao Xiang, Honggang Zhang and Zheng-Hua Tan. &quot;Im2Sketch: Sketch generation by unconflicted perceptual grouping&quot;. Neurocomputing 03/2015; 165. DOI:10.1016/j.neucom.2015.03.023
+          <h3><strong>2013~2015</strong></h3>
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/isvc14.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Wei-Shi Zheng, Tao Xiang, Yi-Zhe Song, Honggang Zhang and Jun Guo. <a href="">&quot;One-Shot Learning of Sketch Categories with Co-regularized Sparse Coding&quot;</a>. 10th International Symposium on Visual Computing (ISVC), 2014.
+            </div>
+          </div>
 
-        <p><li><strong>Yonggang Qi</strong>, Wei-Shi Zheng, Tao Xiang, Yi-Zhe Song, Honggang Zhang and Jun Guo. &quot;One-Shot Learning of Sketch Categories with Co-regularized Sparse Coding&quot;. 10th International Symposium on Visual Computing (ISVC), 2014.
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/icip13.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Jun  Guo, Yi Li, Honggang Zhang, Tao Xiang and Yi-Zhe Song. <a href="">&quot;sketching by perceptual grouping&quot;</a>. In International Conference on  Image Processing (ICIP), 2013.
+            </div>
+          </div>
 
-        <p><li><strong>Yonggang Qi</strong>, Jun  Guo, Yi Li, Honggang Zhang, Tao Xiang and Yi-Zhe Song. &quot;sketching by perceptual grouping&quot;. In International Conference on  Image Processing (ICIP), 2013. <a href="http://www.ieeeicip.org/Papers/Uploads/FinalPapers/PaperNum/2974/20130529035843_955694_2974.pdf">PDF</a>
+          <div class="row">
+            <div class="col-xs-4">
+              <img src="./pic/vcip13.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-8">
+              <strong>Yonggang Qi</strong>, Jun Guo, Yi Li, Honggang Zhang, Tao Xiang,  Yi-Zhe Song and Zheng-Hua Tan. <a href="">&quot;perceptual grouping via untangling gestalt  principles&quot;</a>. In Visual Communications and Image Processing (VCIP), 2013. (<strong>Oral, Best Paper Runner Up Award</strong>).
+            </div>
+          </div>
 
-        <p><li><strong>Yonggang Qi</strong>, Jun Guo, Yi Li, Honggang Zhang, Tao Xiang,  Yi-Zhe Song and Zheng-Hua Tan. &quot;perceptual grouping via untangling gestalt  principles&quot;. In Visual Communications and Image Processing (VCIP), 2013. (Oral).
 
-        <p><li>Kaili Zhao, Honggang Zhang, Mingzhi Dong, <strong>Yonggang Qi</strong> and  Jun Guo. &quot;a multi-label classification approach for facial expression  recognition&quot;. In Visual Communications and Image Processing (VCIP), 2013.</li></p>
-      </li>
-    </li>
-    </article>
-    <article id="research"></article>
-    <footer id="footer">Update: 23th Sep, 2015.</footer>
-  </div>
-</div>
 
-</body>
+        </div>
+
+        <div class="col-xs-4">
+          <h4>News</h4>
+          <p><strong>[May.2016]</strong> One paper goes to ICIP2016.</p>
+          <p><strong>[May.2016]</strong> One paper goes to SPLINE2016.</p>
+          <p><strong>[Mar.2015]</strong> One paper to appear in Neurocomputing.</p>
+          <p><strong>[Mar.2015]</strong> One paper accepted by <strong>CVPR 2015</strong>!</p>
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
