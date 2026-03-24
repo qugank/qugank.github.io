@@ -10,6 +10,9 @@
     <link rel="icon" href="./bootstrap/favicon.ico">
 
     <title>Yonggang Qi's homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,49 +35,39 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #000000;">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
       <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #777; letter-spacing: 1px;"><a href="index.html">Home</a></li>
-            <li style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #777; letter-spacing: 1px;"><a href="#about">About</a></li>
-            <li style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #777; letter-spacing: 1px;"><a href="#pub">Publications</a></li>
-            <li style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #777; letter-spacing: 1px;"><a href="#news">News</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#pub">Publications</a></li>
+            <li><a href="#members">Members</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div id="about" class="container">
-        <h1>Yonggang Qi （齐勇刚）</h1>
-    </div>
-    <hr>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-2">
-          <!--<img src="me.jpg" class="img-responsive" alt="Responsive image">-->
-          <img src="me2.jpg" class="img-thumbnail" alt="Responsive image">
-        </div>
-          
-        <div class="col-xs-3">
-          <h4>Associate Professor</h4>
-          <address>
-            Beijing University of Posts and Telecommunications, Beijing, China<br>
-            
-          </address>
-          <address>
-            <strong>Email</strong><br>
-            <p>qiyg AT bupt DOT edu DOT cn</p>
-            <p><a href="https://scholar.google.com/citations?user=pQNpf7cAAAAJ&hl=en">Google Scholar</a></p>
-          </address>
-
+      <div class="profile">
+        <div class="profile-left">
+          <img src="me2.jpg" class="profile-photo" alt="Responsive image">
+          <div class="profile-links">
+            <a href="mailto:qiyg@bupt.edu.cn"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://scholar.google.com/citations?user=pQNpf7cAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          </div>
         </div>
 
-        <div class="col-xs-7">
-          <p> I am currently an associate professor at BUPT. Previously, I was a PhD student at <a href="http://www.pris.net.cn">Pattern Recognition and Intelligent Systems (PRIS)</a> laboratory at BUPT. I received the PhD in Signal Processing from Beijing University of Posts and Telecommunications (BUPT) in 2015 (Supervisor: Professor Jun Guo). From 2019 to 2020, I was a visiting scholar at <a href="http://sketchx.ai/">SketchX lab</a> headed by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en">Dr. Yi-Zhe Song</a> at the Centre for Vision Speech and Signal Processing (CVSSP) in University of Surrey. I also worked as a guest PhD at Aalborg University in Denmark in 2013 and a visiting researcher at Sun Yat-sen University in China in 2014. </p>
+        <div class="profile-info">
+          <h4>Yonggang Qi 齐勇刚</h4>
+          <p>Beijing University of Posts and Telecommunications (BUPT), Beijing, China</p>
+
+          <p> I am currently an associate professor at BUPT. Previously, I was a PhD student at <a href="">Pattern Recognition and Intelligent Systems (PRIS)</a> laboratory at BUPT. I received the PhD in Signal Processing from Beijing University of Posts and Telecommunications (BUPT) in 2015 (Supervisor: Professor Jun Guo). From 2019 to 2020, I was a visiting scholar at <a href="http://sketchx.ai/">SketchX lab</a> headed by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en">Dr. Yi-Zhe Song</a> at the Centre for Vision Speech and Signal Processing (CVSSP) in University of Surrey. I also worked as a guest PhD at Aalborg University in Denmark in 2013 and a visiting researcher at Sun Yat-sen University in China in 2014. </p>
           <p>My research focuses on computer vision and multimodal learning, with particular interests in human sketch related tasks, image/video generation, and diffusion models. My recent work emphasizes multimodal representation learning, cross-modal alignment, and generative modeling for complex, real-world scenarios. </p>
-          <p><strong>拟招收博士研究生一名（<a href="https://ai.bupt.edu.cn/info/1050/3685.htm">申请-考核</a>、硕博连读、公开报考），欢迎带简历邮件联系。</strong></p>
+          <p><strong>拟招收博士研究生一名（<a href="https://ai.bupt.edu.cn/info/1050/4311.htm">申请-考核</a>、硕博连读），欢迎带简历邮件联系。</strong></p>
           <p><strong>常年招收2-4名硕士研究生（保研+考研）、科研实习生若干名（3-6个月及以上），欢迎有</strong><strong style="color: blue">科研热情</strong><strong>的同学带简历邮件联系。</strong><strong>正在招收2026年入学硕士<strong style="color: blue">考研</strong>同学，欢迎联系。</strong></p>
         </div>
       </div>
@@ -83,41 +76,89 @@
       <div id="news" class="container">
         <h3>News</h3>
         <ul style="text-align:left;">
+          <li><strong>2026-03</strong>: I will serve as an <strong style="color: blue;">Area Chair (AC)</strong> for <strong>NeurIPS 2026</strong>! </li>
           <li><strong>2026-02</strong>: Two papers (CoT for VLN & LLM for 3D Drawing) to appear in <strong>CVPR 2026</strong>!
           <li><strong>2026-02</strong>: One paper (Complex Sketch Generation) is accepted by <strong>IJCV</strong>!</li>
           <li><strong>2026-01</strong>: One paper (World Model) to appear in <strong>ICLR 2026</strong>!</li>
           <li><strong>2026-01</strong>: I am invited as an <strong style="color: blue;">Area Chair (AC)</strong> for <strong>ICPR 2026</strong>! </li>
-          <li><strong>2025-09</strong>: Two papers (Dense Semantic Matching & Diffusion Inversion) to appear in <strong>NeurIPS 2025</strong>!
-          <li><strong>2025-08</strong>: I will serve as an <strong style="color: blue;">Area Chair (AC)</strong> for <strong>ICLR 2026</strong>! </li>
-          <li><strong>2025-07</strong>: One paper (Talking video generation) to appear in <strong>ACM MM 2025</strong>. Check it <a href="https://github.com/Fantasy-AMAP/fantasy-talking">here</a> of our GitHub repo.</li>
-          <li><strong>2025-01</strong>: One paper (Video generation) to appear in <strong>ICLR 2025</strong>.</li>
-          <li><strong>2024-12</strong>: Two papers (Edge detection & Text-to-image generation) to appear in <strong>AAAI 2025</strong> including one <strong style="color:red;">Oral</strong>!</li>
-          <li><strong>2024-01</strong>: One paper (Sketch generation) to appear in <strong>ICLR 2024</strong>.</li>
-          <li><strong>2023-03</strong>: One paper about <em>explainable</em> ZS-SBIR to appear in <strong>CVPR 2023</strong> as a <strong style="color:red;">highlight</strong>!</li>
-          <li><strong>2023-01</strong>: Our work on <em>vectorized sketch generation with diffusion model</em> to appear in <strong>ICLR 2023</strong> (<strong style="color:red;">Spotlight</strong>). </li>
-          <li><strong>2022-10</strong>: Our work on <em>sketch to image generation using diffusion model</em> is accepted by BMVC 2022.</li>
-          <li><strong>2022-09</strong>: One work about <em>sketch to point cloud generation</em> is accepted by ACCV 2022 (<strong>Oral</strong>)!</li>
-          <li><strong>2022-04</strong>: Our work <ins><i>Generative Sketch Healing</i></ins> is accepted by <strong>IJCV</strong>!</li>
-          <li><strong>2022-04</strong>: I am co-organizing the 2nd workshop on <a href="https://she-workshop.github.io">Sketching for Human Expressivity (SHE)</a> at <a href="https://eccv2022.ecva.net/"><strong>ECCV'22</strong></a>!</li>
-          <li><strong>2021-12</strong>: Promoted to an associate professor.</li>
-          <li><strong>2021-10</strong>: One paper on sketch-based 3D shape retrieval (SBSR) with a new fine-grained SBSR dataset got accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83"><strong>TIP</strong></a>! </li>
-          <li><strong>2021-07</strong>: One paper on latticed sketch representation for sketch manipulation got accepted by <a href="http://iccv2021.thecvf.com"><strong>ICCV 2021</strong></a>! Code and pre-trained models are publicly available now. </li>
-          <li><strong>2021-04</strong>: I am co-organizing 1st workshop on <a href="https://she-iccv21.github.io">Sketching for Human Expressivity (SHE)</a> at <a href="http://iccv2021.thecvf.com"><strong>ICCV'21</strong></a>!</li>
-          <li><strong>2021-03</strong>: One paper on perceptual reasoning got accepted by <a href="http://cvpr2021.thecvf.com"><strong>CVPR 2021</strong></a>! </li>
-          <li><strong>2020-11</strong>: One journal paper got accepted by IEEE TCSVT.</li>
-          <li><strong>2020-08</strong>: One paper is accepted at BMVC 2020 as <strong>oral</strong> presentation.</li>
-          <li><strong>2020-03</strong>: Two papers got accepted by IEEE ICME 2020.</li>
-          <li><strong>2019-12</strong>: One journal paper got accepted by IEEE TCSVT.</li>
-          <li><strong>2019-11</strong>: Moved to UK and started my visiting at CVSSP in University of Surrey!</li>
-          <li><strong>2019-08</strong>: One paper got accepted by IEEE VCIP 2019.</li>
-          <li><strong>2019-05</strong>: Got sponsorship from Chinese Scholarship Council (CSC) for visiting SketchX Lab at CVSSP in University of Surrey for one year!</li>
+          <li><strong>2025-09</strong>: Two papers (Dense Semantic Matching & Diffusion Inversion) to appear in <strong>NeurIPS 2025</strong>! </li>
+          <li><strong>2025-08</strong>: I will serve as an <strong style="color: blue;">Area Chair (AC)</strong> for <strong>ICLR 2026</strong>! 
+          <li class="news-item-hidden"><strong>2025-07</strong>: One paper (Talking video generation) to appear in <strong>ACM MM 2025</strong>. Check it <a href="https://github.com/Fantasy-AMAP/fantasy-talking">here</a> of our GitHub repo.</li>
+          <li class="news-item-hidden"><strong>2025-01</strong>: One paper (Video generation) to appear in <strong>ICLR 2025</strong>.</li>
+          <li class="news-item-hidden"><strong>2024-12</strong>: Two papers (Edge detection & Text-to-image generation) to appear in <strong>AAAI 2025</strong> including one <strong style="color:red;">Oral</strong>!</li>
+          <li class="news-item-hidden"><strong>2024-01</strong>: One paper (Sketch generation) to appear in <strong>ICLR 2024</strong>.</li>
+          <li class="news-item-hidden"><strong>2023-03</strong>: One paper about <em>explainable</em> ZS-SBIR to appear in <strong>CVPR 2023</strong> as a <strong style="color:red;">highlight</strong>!</li>
+          <li class="news-item-hidden"><strong>2023-01</strong>: Our work on <em>vectorized sketch generation with diffusion model</em> to appear in <strong>ICLR 2023</strong> (<strong style="color:red;">Spotlight</strong>). </li>
+          <li class="news-item-hidden"><strong>2022-10</strong>: Our work on <em>sketch to image generation using diffusion model</em> is accepted by BMVC 2022.</li>
+          <li class="news-item-hidden"><strong>2022-09</strong>: One work about <em>sketch to point cloud generation</em> is accepted by ACCV 2022 (<strong>Oral</strong>)!</li>
+          <li class="news-item-hidden"><strong>2022-04</strong>: Our work <ins><i>Generative Sketch Healing</i></ins> is accepted by <strong>IJCV</strong>!</li>
+          <li class="news-item-hidden"><strong>2022-04</strong>: I am co-organizing the 2nd workshop on <a href="https://she-workshop.github.io">Sketching for Human Expressivity (SHE)</a> at <a href="https://eccv2022.ecva.net/"><strong>ECCV'22</strong></a>!</li>
+          <li class="news-item-hidden"><strong>2021-12</strong>: Promoted to an associate professor.</li>
+          <li class="news-item-hidden"><strong>2021-10</strong>: One paper on sketch-based 3D shape retrieval (SBSR) with a new fine-grained SBSR dataset got accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83"><strong>TIP</strong></a>! </li>
+          <li class="news-item-hidden"><strong>2021-07</strong>: One paper on latticed sketch representation for sketch manipulation got accepted by <a href="http://iccv2021.thecvf.com"><strong>ICCV 2021</strong></a>! Code and pre-trained models are publicly available now. </li>
+          <li class="news-item-hidden"><strong>2021-04</strong>: I am co-organizing 1st workshop on <a href="https://she-iccv21.github.io">Sketching for Human Expressivity (SHE)</a> at <a href="http://iccv2021.thecvf.com"><strong>ICCV'21</strong></a>!</li>
+          <li class="news-item-hidden"><strong>2021-03</strong>: One paper on perceptual reasoning got accepted by <a href="http://cvpr2021.thecvf.com"><strong>CVPR 2021</strong></a>! </li>
+          <li class="news-item-hidden"><strong>2020-11</strong>: One journal paper got accepted by IEEE TCSVT.</li>
+          <li class="news-item-hidden"><strong>2020-08</strong>: One paper is accepted at BMVC 2020 as <strong>oral</strong> presentation.</li>
+          <li class="news-item-hidden"><strong>2020-03</strong>: Two papers got accepted by IEEE ICME 2020.</li>
+          <li class="news-item-hidden"><strong>2019-12</strong>: One journal paper got accepted by IEEE TCSVT.</li>
+          <li class="news-item-hidden"><strong>2019-11</strong>: Moved to UK and started my visiting at CVSSP in University of Surrey!</li>
+          <li class="news-item-hidden"><strong>2019-08</strong>: One paper got accepted by IEEE VCIP 2019.</li>
+          <li class="news-item-hidden"><strong>2019-05</strong>: Got sponsorship from Chinese Scholarship Council (CSC) for visiting SketchX Lab at CVSSP in University of Surrey for one year!</li>
         </ul>
+        <button id="news-toggle-btn" onclick="toggleNews()">Show more news ▼</button>
       </div>
-
       <hr>
-      <h3 id="pub" class="container">
+
+      
+      <div id="pub" class="container">
           <h3>Selected Publications</h3>
           <div>*: equal contribution</div> <div>#: corresponding author</div>
+          <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/cvpr26-vln.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-9">
+              <div><strong>FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-Language Navigation</strong></div>
+              <div>Jing Zuo, Lingzhou Mu, Fan Jiang, Chengcheng Ma, Mu Xu, <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
+              <div>Computer Vision and Pattern Recognition (<strong>CVPR 2026</strong>).</div>
+              <div class="pub-highlight">Addresses text-only reasoning lacking spatial grounding in VLN; encodes imagined visual tokens into compact latent representations, enabling efficient reasoning-aware navigation without explicit token generation at inference.</div>
+              <div><a href="https://arxiv.org/abs/2601.13976">[ Arxiv ]</a>--<a href="https://fantasy-amap.github.io/fantasy-vln/">[ Project Page ]</a>--<a href="https://github.com/Fantasy-AMAP/fantasy-vln">[ Github Code ]</a></div>
+            </div>
+          </div>
+
+          <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/cvpr26-3draw.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-9">
+              <div><strong>3DrawAgent: Teaching LLM to Draw in 3D with Early Contrastive Experience</strong></div>
+              <div>Hongcan Xiao, Xinyue Xiao, Yilin Wang, Yue Zhang, <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
+              <div>Computer Vision and Pattern Recognition (<strong>CVPR 2026</strong>).</div>
+              <div class="pub-highlight">Addresses the lack of 3D spatial drawing ability in LLMs; introduces early contrastive experience to teach LLMs to generate structured, geometry-aware 3D drawings.</div>
+              <div><a href="">[ Arxiv ]</a>--<a href="">[ Project Page ]</a>--<a href="">[ Github Code ]</a></div>
+            </div>
+          </div>
+
+          <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/iclr26.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-xs-9">
+              <div><strong>FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction</strong></div>
+              <div>Yixiang Dai, Fan Jiang, Chiyu Wang, Mu Xu, <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
+              <div>International Conference on Learning Representations (<strong>ICLR 2026</strong>).</div>
+              <div class="pub-highlight">Addresses geometry inconsistency in video generation; augments frozen video foundation models with a trainable geometric branch to jointly model video latents and implicit 3D fields in a single forward pass.</div>
+              <div><a href="https://arxiv.org/abs/2509.21657">[ Arxiv ]</a>--<a href="https://fantasy-amap.github.io/fantasy-world/">[ Project Page ]</a>--<a href="https://github.com/Fantasy-AMAP/fantasy-world">[ Github Code ]</a></div>
+            </div>
+          </div>
+
           <hr style="border: 1px solid #ccc; margin: 30px 0;">
 
           <div class="row">
@@ -128,6 +169,7 @@
               <div><strong>Precise Diffusion Inversion: Towards Novel Samples and Few-Step Models</strong></div>
               <div>Jing Zuo, Luoping Cui, Chuang Zhu, & <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
               <div>The Thirty-ninth Annual Conference on Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).</div>
+              <div class="pub-highlight">Addresses accumulated inversion errors in DDIM; proposes a precise inversion framework that enables novel sample generation and accelerates few-step diffusion models without retraining.</div>
               <div><a href="https://openreview.net/pdf?id=2sMk2ShRdP">[ Paper ]</a>--<a href="https://github.com/panda7777777/PreciseInv">[ Github Code ]</a></div>
             </div>
           </div>
@@ -142,6 +184,7 @@
               <div><strong>Fuse2Match: Training-Free Fusion of Flow, Diffusion, and Contrastive Models for Zero-Shot Semantic Matching</strong></div>
               <div>Jing Zuo, Jiaqi Wang, <ins><em>Yonggang Qi</em></ins><sup>#</sup>, & Yi-Zhe Song.</div>
               <div>The Thirty-ninth Annual Conference on Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).</div>
+              <div class="pub-highlight">Addresses zero-shot semantic matching across large appearance gaps; training-free fusion of optical flow, diffusion, and contrastive models yields complementary cross-image correspondences without any fine-tuning.</div>
               <div><a href="https://openreview.net/pdf?id=9YXk1RnC9o">[ Paper ]</a>--<a href="https://github.com/panda7777777/fuse2match">[ Github Code ]</a></div>
             </div>
           </div>
@@ -156,6 +199,7 @@
               <div><strong>Autoregressive Video Generation without Vector Quantization</strong></div>
               <div>Haoge Deng, Ting Pan, Haiwen Diao, Zhengxiong Luo, Yufeng Cui, Huchuan Lu, Shiguang Shan, <ins><em>Yonggang Qi</em></ins><sup>#</sup>, Xinlong Wang<sup>#</sup></div>
               <div>International Conference on Learning Representations (<strong>ICLR 2025</strong>).</div>
+              <div class="pub-highlight">Addresses the quality bottleneck of discrete VQ tokenization in autoregressive video generation; replaces VQ with continuous token modeling for higher-fidelity, temporally coherent video synthesis.</div>
               <div><a href="https://arxiv.org/pdf/2412.14169">[ Arxiv ]</a>--<a href="https://github.com/baaivision/NOVA">[ Github Code ]</a></div>
             </div>
           </div>
@@ -170,11 +214,15 @@
               <div><strong>VersaGen: Unleashing Versatile Visual Control for Text-to-Image Synthesis</strong></div>
               <div>Zhipeng Chen, Lan Yang, <ins><em>Yonggang Qi</em></ins>, Honggang Zhang, Kaiyue Pang, Ke Li, & Yi-Zhe Song.</div>
               <div>AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>). <strong style="color: red">Oral</strong></div>
+              <div class="pub-highlight">Addresses limited and rigid visual control in text-to-image synthesis; proposes a unified framework supporting versatile spatial and semantic control signals (sketch, depth, pose, etc.) with a single model.</div>
               <div><a href="https://arxiv.org/pdf/2412.11594">[ Arxiv ]</a>--<a href="https://github.com/FelixChan9527/VersaGen_official">[ Github Code ]</a></div>
             </div>
           </div>
 
-          <hr style="border: 1px solid #ccc; margin: 30px 0;">
+          
+
+          <div id="pub-extra">
+            <hr style="border: 1px solid #ccc; margin: 30px 0;">
 
           <div class="row">
             <div class="col-xs-3">
@@ -184,6 +232,7 @@
               <div><strong>SAUGE: Taming SAM for Uncertainty-Aligned Multi-Granularity Edge Detection</strong></div>
               <div>Xing Liufu, Chaolei Tan, Xiaotong Lin, <ins><em>Yonggang Qi</em></ins>, Jinxuan Li & Jian-Fang Hu</div>
               <div>AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>). </div>
+              <div class="pub-highlight">Addresses the lack of uncertainty awareness in edge detection; tames SAM's multi-granularity segmentation priors to produce uncertainty-aligned, scale-consistent edge maps.</div>
               <div><a href="https://arxiv.org/abs/2412.12892">[ Arxiv ]</a>--<a href="https://github.com/Star-xing1/SAUGE">[ Github Code ]</a></div>
             </div>
           </div>
@@ -198,6 +247,7 @@
               <div><strong>Scale-Adaptive Diffusion Model for Complex Sketch Synthesis</strong></div>
               <div>Jijin Hu, Ke Li, <ins><em>Yonggang Qi</em></ins> & Yi-Zhe Song.</div>
               <div>International Conference on Learning Representations (<strong>ICLR 2024</strong>).</div>
+              <div class="pub-highlight">Addresses difficulty in synthesizing sketches with complex multi-scale structures; introduces a scale-adaptive diffusion model that dynamically adjusts generation resolution to capture fine-grained spatial details.</div>
               <div><a href="https://openreview.net/pdf?id=5xadJmgwix">[ Arxiv ]</a>--<a href="">[ Github Code ]</a></div>
             </div>
           </div>
@@ -212,6 +262,7 @@
               <div><strong>Zero-Shot Everything Sketch-Based Image Retrieval, and in Explainable Style</strong></div>
               <div>Fengyin Lin*, Mingkang Li*, Da Li, Timothy Hospedales, Yi-Zhe Song, <ins><em>Yonggang Qi</em></ins></div>
               <div>Computer Vision and Pattern Recognition (<strong>CVPR 2023</strong>). <strong style="color: red">Highlight</strong></div>
+              <div class="pub-highlight">Addresses the black-box nature of cross-modal sketch-based retrieval; proposes a zero-shot SBIR framework that simultaneously retrieves images and generates visual explanations of the matching rationale.</div>
               <div><a href="https://arxiv.org/pdf/2303.14348.pdf">[ Arxiv ]</a>--<a href="https://github.com/buptLinfy/ZSE-SBIR">[ Github Code ]</a></div>
             </div>
           </div>
@@ -226,6 +277,7 @@
               <div><strong>SketchKnitter: Vectorized Sketch Generation with Diffusion Models</strong></div>
               <div>Qiang Wang, Haoge Deng, <ins><em>Yonggang Qi</em></ins><sup>#</sup>, Da Li, Yi-Zhe Song</div>
               <div>International Conference on Learning Representations (<strong>ICLR 2023</strong>). <strong style="color: red">Spotlight</strong></div>
+              <div class="pub-highlight">Addresses the lack of temporal coherence in vectorized sketch generation; first to apply diffusion models to sequential vector stroke generation, producing human-like sketches with natural drawing order.</div>
               <div><a href="https://openreview.net/pdf?id=4eJ43EN2g6l">[ Paper ]</a>--<a href="https://github.com/XDUWQ/SketchKnitter">[ Github Code ]</a></div>
             </div>
           </div>
@@ -239,6 +291,7 @@
               <div><strong>A Diffusion-ReFinement Model for Sketch-to-Point Modeling</strong></div>
               <div>Di Kong, Qiang Wang, <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
               <div>The 16th Asian Conference on Computer Vision (ACCV 2022). <b>Oral</b></div>
+              <div class="pub-highlight">Addresses the domain gap between abstract sketches and 3D point clouds; introduces a diffusion-based refinement model that progressively denoises coarse sketch-driven point predictions into detailed 3D shapes.</div>
               <div><a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Kong_A_Diffusion-ReFinement_Model_for_Sketch-to-Point_Modeling_ACCV_2022_paper.pdf">[ Paper ]</a>--<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Kong_A_Diffusion-ReFinement_Model_ACCV_2022_supplemental.pdf">[ Suppl. ]</a>--<a href="https://github.com/Walterkd/diffusion-refine-sketch2point">[ Github Code ]</a></div>
             </div>
           </div>
@@ -253,10 +306,10 @@
               <div><strong>DiffSketching: Sketch Control Image Synthesis with Diffusion Models</strong></div>
               <div>Qiang Wang, Di Kong, <ins><em>Yonggang Qi</em></ins><sup>#</sup>.</div>
               <div>The 33rd British Machine Vision Conference (BMVC 2022).</div>
+              <div class="pub-highlight">Addresses the difficulty of using sparse sketch inputs to guide realistic image generation; leverages diffusion models' strong generative priors to synthesize photorealistic images conditioned on free-hand sketches.</div>
               <div><a href="https://bmvc2022.mpi-inf.mpg.de/0067.pdf">[ Paper ]</a>--<a href="./papers/BMVC2022_DiffSketching_suppl.pdf">[ Suppl. ]</a>--<a href="https://github.com/XDUWQ/DiffSketching">[ Github Code ]</a></div>
             </div>
           </div>
-
 
           <hr style="border: 1px solid #ccc; margin: 30px 0;">
           <div class="row">
@@ -267,6 +320,7 @@
               <div><strong>Generative Sketch Healing</strong></div>
               <div><strong>Yonggang Qi</strong>, Guoyao Su, Qiang Wang, Jie Yang, Kaiyue Pang and Yi-Zhe Song.</div>
               <div>International Journal of Computer Vision (<strong>IJCV</strong>), Springer.</div>
+              <div class="pub-highlight">Addresses the problem of incomplete or corrupted sketches; proposes a generative model that infers and restores missing strokes while preserving the original drawing style and semantic structure.</div>
               <div><a href="https://rdcu.be/cPboF">[ Paper ]</a>--[ Project Page ]</div>
             </div>
           </div>
@@ -280,6 +334,7 @@
               <div><strong>SketchLattice: Latticed Representation for Sketch Manipulation</strong></div>
               <div><strong>Yonggang Qi</strong>*, Guoyao Su*, Pinaki Nath Chowdhury, Mingkang Li and Yi-Zhe Song.</div>
               <div>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2021.</div>
+              <div class="pub-highlight">Addresses the rigidity of existing sketch representations; introduces a latticed graph structure over strokes that enables flexible, controllable sketch editing and semantic manipulation.</div>
               <div><a href="http://arxiv.org/abs/2108.11636">[ arXiv Paper ]</a>--<a href="https://qugank.github.io/sketch-lattice.github.io/">[ Project Page ]</a></a>--<a href="https://github.com/qugank/sketch-lattice">[ Github Code ]</a></div>
             </div>
           </div>
@@ -294,6 +349,7 @@
               <div><strong>PQA: Perceptual Question Answering</strong></div>
               <div><strong>Yonggang Qi</strong>*, Kai Zhang*, Aneeshan Sain and Yi-Zhe Song.</div>
               <div>IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2021.</div>
+              <div class="pub-highlight">Addresses the absence of perceptual grouping reasoning in VQA; introduces a new task and dataset requiring models to answer questions based on Gestalt perceptual principles applied to visual scenes.</div>
               <div><a href="https://arxiv.org/abs/2104.03589">[ arXiv Paper ]</a>--<a href="https://qugank.github.io/pqa.github.io/">[ Project Page ]</a></a>--<a href="https://github.com/qugank/pqa.github.io">[ Github Code ]</a></div>
             </div>
           </div>
@@ -308,6 +364,7 @@
               <div><strong>Towards Fine-Grained Sketch-Based 3D Shape Retrieval</strong></div>
               <div>Anran Qi, Yulia Gryaditskaya, Jifei Song, Yongxin Yang, <strong>Yonggang Qi</strong>, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song.</div>
               <div>IEEE Transactions on Image Processing (<strong>TIP</strong>), 2021.</div>
+              <div class="pub-highlight">Addresses coarse-grained retrieval in sketch-based 3D shape search; proposes a fine-grained cross-modal embedding with a new benchmark to retrieve instance-specific 3D shapes from hand-drawn sketches.</div>
               <div><a href="https://ieeexplore.ieee.org/document/9573376">[Paper]</a>--<a href="">[ Project Page ]</a></a>--<a href="">[Code ]</a></div>
             </div>
           </div>
@@ -475,17 +532,221 @@
               <div><a href="./papers/ICIP13.pdf">[ Paper ]</a></div>
             </div>
           </div>
+          </div><!-- #pub-extra -->
+          <button id="pub-toggle-btn" onclick="togglePub()">Show more publications ▼</button>
 
     </div><!-- /.container -->
     <hr>
-      
+
+    <div id="members" class="container">
+      <h3>Team Members</h3>
+
+      <h5>PhD Students</h5>
+      <div class="members-grid">
+        <div class="member-card">
+          <img src="pic/members/zuojing.jpg" class="member-photo" alt="左京">
+          <div class="member-name">Jing Zuo (左京)</div>
+          <!-- <div class="member-meta">2024 Fall</div> -->
+          <div class="member-meta">Multimodal Reasoning</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/wangyilin.jpg" class="member-photo" alt="王怡琳">
+          <div class="member-name">Yilin Wang (王怡琳)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">Image Generation and Editing</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/pengliyun.jpg" class="member-photo" alt="彭立云">
+          <div class="member-name">Liyun Peng (彭立云)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">Multimodal Understanding and Generation</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/guoyanjie.jpg" class="member-photo" alt="郭琰杰">
+          <div class="member-name">Yanjie Guo (郭琰杰)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">3D Sketch Vision</div>
+        </div>
+      </div>
+
+      <h5>Master Students</h5>
+      <div class="members-grid">
+        <div class="member-card">
+          <img src="pic/members/nidonglin.jpg" class="member-photo" alt="倪东霖">
+          <div class="member-name">Donglin Nie (倪东霖)</div>
+          <!-- <div class="member-meta">2023 Fall</div> -->
+          <div class="member-meta">OOD Generation</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/zhangyunpeng.jpg" class="member-photo" alt="张云鹏">
+          <div class="member-name">Yunpeng Zhang (张云鹏)</div>
+          <!-- <div class="member-meta">2023 Fall</div> -->
+          <div class="member-meta">Avatar Generation</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/wangjiaqi.jpg" class="member-photo" alt="王家琪">
+          <div class="member-name">Jiaqi Wang (王家琪)</div>
+          <!-- <div class="member-meta">2024 Fall</div> -->
+          <div class="member-meta">Image Generation</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/tangjunxiao.jpg" class="member-photo" alt="唐浚潇">
+          <div class="member-name">Junxiao Tang (唐浚潇)</div>
+          <!-- <div class="member-meta">2024 Fall</div> -->
+          <div class="member-meta">LLM for Motion</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/xiaohongcan.jpg" class="member-photo" alt="肖红灿">
+          <div class="member-name">Hongcan Xiao (肖红灿)</div>
+          <!-- <div class="member-meta">2025 Fall</div> -->
+          <div class="member-meta">LLM for 3D</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/kezundi.jpg" class="member-photo" alt="柯尊迪">
+          <div class="member-name">Zundi Ke (柯尊迪)</div>
+          <!-- <div class="member-meta">2025 Fall</div> -->
+          <div class="member-meta">Visual Abstraction</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/zhangxiaobin.jpg" class="member-photo" alt="张晓斌">
+          <div class="member-name">Xiaobin Zhang (张晓斌)</div>
+          <!-- <div class="member-meta">2025 Fall</div> -->
+          <div class="member-meta">3D Vision</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/xiaoxinyue.jpg" class="member-photo" alt="肖欣悦">
+          <div class="member-name">Xinyue Xiao (肖欣悦)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">Image Generation & Editing</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/zhangxinyue.jpg" class="member-photo" alt="张欣悦">
+          <div class="member-name">Xinyue Zhang (张欣悦)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">VLM Post Training</div>
+        </div>
+        <div class="member-card">
+          <img src="pic/members/liujunwei.jpg" class="member-photo" alt="刘俊玮">
+          <div class="member-name">Junwei Liu (刘俊玮)</div>
+          <!-- <div class="member-meta">2026 Fall</div> -->
+          <div class="member-meta">Image Generation</div>
+        </div>
+      </div>
+      </div><!-- /#members -->
+
+      <hr>
+      <div id="alumni" class="container">
+        <h3>Alumni</h3>
+
+        <h5>Master Students</h5>
+        <ul class="alumni-list">
+          <li>
+            <span class="alumni-name">邓皓戈 (Haoge Deng)</span>
+            <span class="alumni-meta">2025 · 中科院&智源 联培博士</span>
+          </li>
+          <li>
+            <span class="alumni-name">代欣 (Xin Dai)</span>
+            <span class="alumni-meta">2025 · 北京市</span>
+          </li>
+          <li>
+            <span class="alumni-name">汪强 (Qiang Wang)</span>
+            <span class="alumni-meta">2024 · 阿里巴巴 Alibaba</span>
+          </li>
+          <li>
+            <span class="alumni-name">卢婷 (Ting Lu)</span>
+            <span class="alumni-meta">2024 · 京东 Jd.com</span>
+          </li>
+          <li>
+            <span class="alumni-name">林峰印 (Fengyin Lin)</span>
+            <span class="alumni-meta">2024 · 字节跳动 ByteDance</span>
+          </li>
+          <li>
+            <span class="alumni-name">孔迪 (Di Kong)</span>
+            <span class="alumni-meta">2024 · 清华大学博士 PhD@Tsinghua University</span>
+          </li>
+          <li>
+            <span class="alumni-name">刘达 (Da Liu)</span>
+            <span class="alumni-meta">2024 · 北京市专用通信局</span>
+          </li>
+          <li>
+            <span class="alumni-name">李明康 (Mingkang Li)</span>
+            <span class="alumni-meta">2023 · 字节跳动 ByteDance</span>
+          </li>
+          <li>
+            <span class="alumni-name">陈彦岚 (Yanlan Chen)</span>
+            <span class="alumni-meta">2023 · 微软 Microsoft</span>
+          </li>
+          <li>
+            <span class="alumni-name">吴宙思 (Zhusi Wu)</span>
+            <span class="alumni-meta">2023 · 南方基金 NFfund</span>
+          </li>
+          <li>
+            <span class="alumni-name">张楷 (Kai Zhang)</span>
+            <span class="alumni-meta">2022 · 字节跳动 ByteDance</span>
+          </li>
+          <li>
+            <span class="alumni-name">苏国耀 (Guoyao Su)</span>
+            <span class="alumni-meta">2022 · 招商银行总部</span>
+          </li>
+          <li>
+            <span class="alumni-name">王尤嘉 (Youjia Wang)</span>
+            <span class="alumni-meta">2022 · 中金 CICC</span>
+          </li>
+          <li>
+            <span class="alumni-name">程闱邵 (Weishao Cheng)</span>
+            <span class="alumni-meta">2021 · 大众 Volkswagen</span>
+          </li>
+          <!-- 第6条起加 class="alumni-item-hidden" 即可默认隐藏 -->
+        </ul>
+        <!-- <button id="alumni-toggle-btn" onclick="toggleAlumni()" style="display:none;">Show more ▼</button> -->
+      </div><!-- /#alumni -->
+
+
     <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=pwyk&d=XqwwDPMtd8r7hty0E7GpsRO6tUEvxWPWr4ygvS5gCd8"></script>
 
     <div class="mastfoot">
             <div class="inner">
-              <p class="text-center">Updated Dec. 2025, page created using <a href="http://getbootstrap.com/">Bootstrap</a></p>
+              <p class="text-center">Updated Mar. 2026, page created using <a href="http://getbootstrap.com/">Bootstrap</a></p>
             </div>
     </div>
+
+    <script>
+      function togglePub() {
+        var extra = document.getElementById('pub-extra');
+        var btn = document.getElementById('pub-toggle-btn');
+        var isCollapsed = extra.style.display !== 'block';
+        extra.style.display = isCollapsed ? 'block' : 'none';
+        btn.textContent = isCollapsed ? 'Show less ▲' : 'Show all publications ▼';
+      }
+
+      function toggleAlumni() {
+        var items = document.querySelectorAll('li.alumni-item-hidden');
+        var btn = document.getElementById('alumni-toggle-btn');
+        var isCollapsed = btn.textContent.indexOf('Show') !== -1;
+        items.forEach(function(el) {
+          el.style.display = isCollapsed ? 'list-item' : 'none';
+        });
+        btn.textContent = isCollapsed ? 'Show less ▲' : 'Show more ▼';
+      }
+
+      // 超过5条时显示按钮
+      (function() {
+        var items = document.querySelectorAll('#alumni .alumni-list li.alumni-item-hidden');
+        if (items.length > 0) {
+          document.getElementById('alumni-toggle-btn').style.display = 'inline';
+        }
+      })();
+
+      function toggleNews() {
+        var items = document.querySelectorAll('li.news-item-hidden');
+        var btn = document.getElementById('news-toggle-btn');
+        var isCollapsed = btn.textContent.indexOf('Show all') !== -1;
+        items.forEach(function(el) {
+          el.style.display = isCollapsed ? 'list-item' : '';
+        });
+        btn.textContent = isCollapsed ? 'Show less ▲' : 'Show all news ▼';
+      }
+    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
